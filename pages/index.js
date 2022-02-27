@@ -435,21 +435,21 @@ const Home = (props) => {
           }
           .text03 {
             color: #ffffff;
-            font-size: 6.2vh;
+            font-size: 3.3vw;
             font-style: normal;
             font-family: sequel_widewide;
             font-weight: 400;
           }
           .text04 {
             color: #ffffff;
-            font-size: 6.2vh;
+            font-size: 3.3vw;
             font-style: normal;
             font-family: sequel_widewide;
             font-weight: 400;
           }
           .text05 {
             color: #ffffff;
-            font-size: 6.2vh;
+            font-size: 3.3vw;
             font-style: normal;
             font-family: sequel_widewide;
             font-weight: 400;
