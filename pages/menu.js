@@ -131,13 +131,16 @@ const Menu = (props) => {
             src="/playground_assets/signature.svg"
             className="image5"
           />
-          <Link href="/">
-            <a className="link09">
-              <div className="container08">
-                <span className="text3">Instagram</span>
-              </div>
-            </a>
-          </Link>
+          <a
+            href="https://www.instagram.com/krjdesignz/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="link09"
+          >
+            <div className="container08">
+              <span className="text3">Instagram</span>
+            </div>
+          </a>
           <div className="container09">
             <a
               href="https://www.instagram.com/krjdesignz"
@@ -169,13 +172,16 @@ const Menu = (props) => {
             src="/playground_assets/signature.svg"
             className="image6"
           />
-          <Link href="/">
-            <a className="link13">
-              <div className="container11">
-                <span className="text4">LinkedIn</span>
-              </div>
-            </a>
-          </Link>
+          <a
+            href="https://www.linkedin.com/in/krjayesh21/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="link13"
+          >
+            <div className="container11">
+              <span className="text4">LinkedIn</span>
+            </div>
+          </a>
           <div className="container12">
             <a
               href="https://www.instagram.com/krjdesignz"
@@ -207,13 +213,16 @@ const Menu = (props) => {
             src="/playground_assets/signature.svg"
             className="image7"
           />
-          <Link href="/">
-            <a className="link17">
-              <div className="container14">
-                <span className="text5">Twitter</span>
-              </div>
-            </a>
-          </Link>
+          <a
+            href="https://twitter.com/krjdesignz/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="link17"
+          >
+            <div className="container14">
+              <span className="text5">Twitter</span>
+            </div>
+          </a>
           <div className="container15">
             <a
               href="https://www.instagram.com/krjdesignz"
@@ -245,13 +254,16 @@ const Menu = (props) => {
             src="/playground_assets/signature.svg"
             className="image8"
           />
-          <Link href="/">
-            <a className="link21">
-              <div className="container17">
-                <span className="text6">Dribbble</span>
-              </div>
-            </a>
-          </Link>
+          <a
+            href="https://dribbble.com/krjayesh/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="link21"
+          >
+            <div className="container17">
+              <span className="text6">Dribbble</span>
+            </div>
+          </a>
           <div className="container18">
             <a
               href="https://www.instagram.com/krjdesignz"
