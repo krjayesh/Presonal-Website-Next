@@ -27,19 +27,24 @@ const Home = (props) => {
           <span className="text02">
             I stand with Ukraine and it&apos;s people.
           </span>
-          <button className="button">
+          <a
+            href="https://twitter.com/hashtag/StandWithUkriane"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="link button"
+          >
             <img
               alt="image"
               src="/playground_assets/group%201244.svg"
               className="image"
             />
-          </button>
+          </a>
         </div>
         <a
           href="https://twitter.com/hashtag/StayWithUkraine"
           target="_blank"
           rel="noreferrer noopener"
-          className="link"
+          className="link01"
         >
           <div className="container02">
             <span className="text03">
@@ -50,7 +55,7 @@ const Home = (props) => {
             <span className="text05">
               I stand with Ukraine and it&apos;s people.
             </span>
-            <button className="button1 button">
+            <button className="button">
               <img
                 alt="image"
                 src="/playground_assets/group%201244.svg"
@@ -71,7 +76,7 @@ const Home = (props) => {
             className="image03"
           />
           <Link href="/menu">
-            <a className="link01">
+            <a className="link02">
               <img
                 alt="image"
                 src="/playground_assets/menu.svg"
@@ -84,7 +89,7 @@ const Home = (props) => {
               href="https://www.instagram.com/krjdesignz"
               target="_blank"
               rel="noreferrer noopener"
-              className="link02"
+              className="link03"
             >
               Instagram
             </a>
@@ -92,13 +97,13 @@ const Home = (props) => {
               href="https://twitter.com/krjdesignz"
               target="_blank"
               rel="noreferrer noopener"
-              className="link03"
+              className="link04"
             >
               Twitter
             </a>
             <a
               href="mailto:krjayesh21@gmail.com?subject=Hey Jayesh, I need your help for..."
-              className="link04"
+              className="link05"
             >
               Email
             </a>
@@ -113,7 +118,7 @@ const Home = (props) => {
           href="https://www.hightouch.io/"
           target="_blank"
           rel="noreferrer noopener"
-          className="link05"
+          className="link06"
         >
           <div className="container06">
             <div className="container07">
@@ -132,7 +137,7 @@ const Home = (props) => {
           href="https://www.hightouch.io/"
           target="_blank"
           rel="noreferrer noopener"
-          className="link06"
+          className="link07"
         >
           <div className="container08">
             <div className="container09">
@@ -159,7 +164,7 @@ const Home = (props) => {
           href="https://zerossl.com/features/console/"
           target="_blank"
           rel="noreferrer noopener"
-          className="link07"
+          className="link08"
         >
           <div className="container11">
             <h1 className="text12">SSL Management Console - ZeroSSL</h1>
@@ -174,7 +179,7 @@ const Home = (props) => {
           href="https://ramp.com/advanced-cards"
           target="_blank"
           rel="noreferrer noopener"
-          className="link08"
+          className="link09"
         >
           <div className="container12">
             <h1 className="text13">Corporate Virtual Card Webapp - Ramp</h1>
@@ -189,7 +194,7 @@ const Home = (props) => {
           href="https://esocial-official-site.vercel.app/"
           target="_blank"
           rel="noreferrer noopener"
-          className="link09"
+          className="link10"
         >
           <div className="container13">
             <h1 className="text14">Educational Social Network - Esocial</h1>
@@ -204,7 +209,7 @@ const Home = (props) => {
           href="https://esocial-official-site.vercel.app/"
           target="_blank"
           rel="noreferrer noopener"
-          className="link10"
+          className="link11"
         >
           <div className="container14">
             <h1 className="text15">
@@ -226,7 +231,7 @@ const Home = (props) => {
           href="https://foundersmafia.org/"
           target="_blank"
           rel="noreferrer noopener"
-          className="link11"
+          className="link12"
         >
           <div className="container15">
             <img
@@ -251,7 +256,7 @@ const Home = (props) => {
               href="https://www.instagram.com/krjdesignz"
               target="_blank"
               rel="noreferrer noopener"
-              className="link12"
+              className="link13"
             >
               <h1 className="text18">IN.</h1>
             </a>
@@ -259,7 +264,7 @@ const Home = (props) => {
               href="https://www.linkedin.com/in/krjayesh21/"
               target="_blank"
               rel="noreferrer noopener"
-              className="link13"
+              className="link14"
             >
               <h1 className="text19">LN.</h1>
             </a>
@@ -267,7 +272,7 @@ const Home = (props) => {
               href="https://twitter.com/krjdesignz"
               target="_blank"
               rel="noreferrer noopener"
-              className="link14"
+              className="link15"
             >
               <h1 className="text20">TW.</h1>
             </a>
@@ -275,7 +280,7 @@ const Home = (props) => {
               href="https://dribbble.com/krjayesh"
               target="_blank"
               rel="noreferrer noopener"
-              className="link15"
+              className="link16"
             >
               <h1 className="text21">DR.</h1>
             </a>
@@ -286,7 +291,7 @@ const Home = (props) => {
           <div className="container20">
             <a
               href="mailto:krjayesh21@gmail.com?subject=Hey Jayesh, I need your help for..."
-              className="link16"
+              className="link17"
             >
               <h1 className="text23">DROP A LINE.</h1>
             </a>
@@ -345,7 +350,7 @@ const Home = (props) => {
             font-family: Circular Std Book;
             font-weight: 400;
           }
-          .button {
+          .link {
             color: transparent;
             display: flex;
             transition: 0.3s;
@@ -359,14 +364,14 @@ const Home = (props) => {
             text-decoration: none;
             background-color: #0095FF;
           }
-          .button:hover {
+          .link:hover {
             background-color: #0080FF;
           }
           .image {
             height: 1.8vh;
             object-fit: cover;
           }
-          .link {
+          .link01 {
             display: contents;
           }
           .container02 {
@@ -410,7 +415,7 @@ const Home = (props) => {
             font-family: Circular Std Book;
             font-weight: 400;
           }
-          .button1 {
+          .button {
             color: transparent;
             display: flex;
             transition: 0.3s;
@@ -424,7 +429,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: #0095FF;
           }
-          .button1:hover {
+          .button:hover {
             background-color: #0080FF;
           }
           .image01 {
@@ -452,7 +457,7 @@ const Home = (props) => {
             display: none;
             object-fit: cover;
           }
-          .link01 {
+          .link02 {
             display: contents;
           }
           .image04 {
@@ -468,19 +473,6 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .link02 {
-            color: #ffffff;
-            font-size: 2.5vh;
-            font-style: normal;
-            transition: 0.3s;
-            font-family: Circular Std Book;
-            font-weight: 400;
-            margin-right: 3vh;
-            text-decoration: none;
-          }
-          .link02:hover {
-            color: #ac61ff;
-          }
           .link03 {
             color: #ffffff;
             font-size: 2.5vh;
@@ -492,9 +484,22 @@ const Home = (props) => {
             text-decoration: none;
           }
           .link03:hover {
-            color: #009dff;
+            color: #ac61ff;
           }
           .link04 {
+            color: #ffffff;
+            font-size: 2.5vh;
+            font-style: normal;
+            transition: 0.3s;
+            font-family: Circular Std Book;
+            font-weight: 400;
+            margin-right: 3vh;
+            text-decoration: none;
+          }
+          .link04:hover {
+            color: #009dff;
+          }
+          .link05 {
             color: #ffffff;
             cursor: pointer;
             font-size: 2.5vh;
@@ -504,7 +509,7 @@ const Home = (props) => {
             font-weight: 400;
             text-decoration: none;
           }
-          .link04:hover {
+          .link05:hover {
             color: #00dc6b;
           }
           .container05 {
@@ -538,7 +543,7 @@ const Home = (props) => {
             font-family: sequel_widewide;
             font-weight: 400;
           }
-          .link05 {
+          .link06 {
             display: contents;
           }
           .container06 {
@@ -589,7 +594,7 @@ const Home = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .link06 {
+          .link07 {
             display: contents;
           }
           .container08 {
@@ -679,7 +684,7 @@ const Home = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .link07 {
+          .link08 {
             display: contents;
           }
           .container11 {
@@ -720,7 +725,7 @@ const Home = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .link08 {
+          .link09 {
             display: contents;
           }
           .container12 {
@@ -761,7 +766,7 @@ const Home = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .link09 {
+          .link10 {
             display: contents;
           }
           .container13 {
@@ -802,7 +807,7 @@ const Home = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .link10 {
+          .link11 {
             display: contents;
           }
           .container14 {
@@ -850,7 +855,7 @@ const Home = (props) => {
             margin-left: 8vh;
             margin-bottom: -1.5vh;
           }
-          .link11 {
+          .link12 {
             display: contents;
           }
           .container15 {
@@ -928,7 +933,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .link12 {
+          .link13 {
             display: contents;
           }
           .text18 {
@@ -944,7 +949,7 @@ const Home = (props) => {
           .text18:hover {
             color: #ac61ff;
           }
-          .link13 {
+          .link14 {
             display: contents;
           }
           .text19 {
@@ -960,7 +965,7 @@ const Home = (props) => {
           .text19:hover {
             color: #335bff;
           }
-          .link14 {
+          .link15 {
             display: contents;
           }
           .text20 {
@@ -976,7 +981,7 @@ const Home = (props) => {
           .text20:hover {
             color: #009dff;
           }
-          .link15 {
+          .link16 {
             display: contents;
           }
           .text21 {
@@ -1020,7 +1025,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .link16 {
+          .link17 {
             display: contents;
           }
           .text23 {
@@ -1120,7 +1125,7 @@ const Home = (props) => {
               display: flex;
               font-size: 2vh;
             }
-            .button {
+            .link {
               display: none;
             }
             .container02 {
@@ -1144,7 +1149,7 @@ const Home = (props) => {
               display: flex;
               font-size: 2vh;
             }
-            .button1 {
+            .button {
               display: none;
             }
             .container03 {
