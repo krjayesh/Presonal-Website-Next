@@ -29,6 +29,7 @@
 }
 .teleport-show {
   display: flex !important;
+  transform: none !important;
 }
 .button {
   color: var(--dl-color-gray-black);
@@ -71,7 +72,7 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
-.content {
+.Content {
   font-size: 16px;
   font-family: Arial;
   font-weight: 400;
@@ -79,7 +80,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.heading {
+.Heading {
   font-size: 32px;
   font-family: Arial;
   font-weight: 700;
