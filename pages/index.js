@@ -531,7 +531,7 @@ const Home = (props) => {
             display: none;
             object-fit: cover;
           }
-          @media (max-width: 375px) {
+          @media (max-width: 420px) {
             .home-container01 {
               width: 100%;
             }
