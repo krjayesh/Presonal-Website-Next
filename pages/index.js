@@ -42,17 +42,18 @@ const Home = (props) => {
             </span>
           </span>
           <span className="home-text09">
-            <span>I’m Jayesh Kumar,</span>
-            <span>I’m a 17 y/o boy from India.</span>
+            <span>Myself Jayesh Kumar. </span>
+            <span className="home-text11">I’m a 17 y/o boy from India.</span>
           </span>
           <span className="home-text12">
-            <span>I&apos;m a young ambitious designer</span>
-            <span>creating delightful and accessible</span>
-            <span>interface experience that people</span>
-            <span>will love.</span>
+            <span>I&apos;m a young ambitious designer </span>
+            <span className="home-text14">
+              creating delightful and accessible interface experience that
+              people will love.
+            </span>
           </span>
           <div className="home-container02">
-            <span className="home-text17">Reach me at</span>
+            <span className="home-text15">Reach me at</span>
             <img
               alt="image"
               src="/playground_assets/hyphen.svg"
@@ -197,7 +198,7 @@ const Home = (props) => {
             src="/playground_assets/grinning%20face%20with%20sweat-1500h.webp"
             className="home-image11"
           />
-          <span className="home-text18">
+          <span className="home-text16">
             I’ll upload a resume soon
             <span
               dangerouslySetInnerHTML={{
@@ -278,6 +279,9 @@ const Home = (props) => {
             font-weight: 400;
             line-height: 1.94915vh;
           }
+          .home-text11 {
+            font-size: 1.52542vh;
+          }
           .home-text12 {
             color: rgb(196, 196, 196);
             display: none;
@@ -286,6 +290,9 @@ const Home = (props) => {
             font-family: Circular Std Book;
             font-weight: 400;
             line-height: 1.94915vh;
+          }
+          .home-text14 {
+            font-size: 1.52542vh;
           }
           .home-container02 {
             gap: 1.3888888888888888vw;
@@ -296,7 +303,7 @@ const Home = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .home-text17 {
+          .home-text15 {
             color: rgb(196, 196, 196);
             font-size: 2.34375vh;
             font-style: normal;
@@ -498,7 +505,7 @@ const Home = (props) => {
             height: 2.9296875vh;
             object-fit: cover;
           }
-          .home-text18 {
+          .home-text16 {
             color: #475569;
             font-size: 2.34375vh;
             font-style: normal;
@@ -534,6 +541,8 @@ const Home = (props) => {
           @media (max-width: 420px) {
             .home-container01 {
               width: 100%;
+              padding-left: 13.866666666666667vw;
+              padding-right: 13.866666666666667vw;
             }
             .home-text {
               display: none;
@@ -640,7 +649,7 @@ const Home = (props) => {
             .home-image11 {
               height: 2.0338983050847457vh;
             }
-            .home-text18 {
+            .home-text16 {
               color: #ffffff;
               font-size: 1.5254237288135593vh;
               line-height: 1.9491525423728813vh;
