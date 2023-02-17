@@ -534,8 +534,6 @@ const Home = (props) => {
           @media (max-width: 375px) {
             .home-container01 {
               width: 100%;
-              padding-left: 6.341463414634147vw;
-              padding-right: 6.341463414634147vw;
             }
             .home-text {
               display: none;
@@ -637,6 +635,7 @@ const Home = (props) => {
             }
             .home-container14 {
               gap: 0.7317073170731707vw;
+              width: 100%;
             }
             .home-image11 {
               height: 2.0338983050847457vh;
@@ -660,7 +659,7 @@ const Home = (props) => {
               top: 0px;
               left: 0px;
               right: 0px;
-              width: 100%;
+              width: 100vw;
               margin: auto;
               display: flex;
               position: absolute;
@@ -668,7 +667,7 @@ const Home = (props) => {
             .home-image15 {
               left: 0px;
               right: 0px;
-              width: 100%;
+              width: 100vw;
               bottom: 0px;
               margin: auto;
               display: flex;
