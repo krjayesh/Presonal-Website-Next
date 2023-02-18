@@ -41,19 +41,28 @@ const Home = (props) => {
               and accessible interface experience that people will love.
             </span>
           </span>
-          <span className="home-text09">
-            <span>Myself Jayesh Kumar. </span>
-            <span className="home-text11">I’m a 17 y/o boy from India.</span>
-          </span>
-          <span className="home-text12">
+          <div className="home-container02">
+            <span className="home-text09">
+              Myself
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="home-text10">Jayesh Kumar</span>
+            <span className="home-text11">,</span>
+          </div>
+          <span className="home-text12">I’m a 17 y/o boy from India.</span>
+          <span className="home-text13">
             <span>I&apos;m a young ambitious designer </span>
-            <span className="home-text14">
+            <span>
               creating delightful and accessible interface experience that
               people will love.
             </span>
           </span>
-          <div className="home-container02">
-            <span className="home-text15">Reach me at</span>
+          <div className="home-container03">
+            <span className="home-text16">Reach me at</span>
             <img
               alt="image"
               src="/playground_assets/hyphen.svg"
@@ -65,7 +74,7 @@ const Home = (props) => {
               rel="noreferrer noopener"
               className="home-link"
             >
-              <div className="home-container03">
+              <div className="home-container04">
                 <img
                   alt="image"
                   src="/playground_assets/instagram.svg"
@@ -79,7 +88,7 @@ const Home = (props) => {
               rel="noreferrer noopener"
               className="home-link01"
             >
-              <div className="home-container04">
+              <div className="home-container05">
                 <img
                   alt="image"
                   src="/playground_assets/twitter.svg"
@@ -93,7 +102,7 @@ const Home = (props) => {
               rel="noreferrer noopener"
               className="home-link02"
             >
-              <div className="home-container05">
+              <div className="home-container06">
                 <img
                   alt="image"
                   src="/playground_assets/dribbble.svg"
@@ -107,7 +116,7 @@ const Home = (props) => {
               rel="noreferrer noopener"
               className="home-link03"
             >
-              <div className="home-container06">
+              <div className="home-container07">
                 <img
                   alt="image"
                   src="/playground_assets/whatsapp.svg"
@@ -119,7 +128,7 @@ const Home = (props) => {
               href="mailto:krjayesh2004@gmail.com?subject="
               className="home-link04"
             >
-              <div className="home-container07">
+              <div className="home-container08">
                 <img
                   alt="image"
                   src="/playground_assets/mail.svg"
@@ -128,13 +137,13 @@ const Home = (props) => {
               </div>
             </a>
           </div>
-          <div className="home-container08">
+          <div className="home-container09">
             <a
               href="https://www.instagram.com/krjayesh2110/"
               target="_blank"
               rel="noreferrer noopener"
             >
-              <div className="home-container09">
+              <div className="home-container10">
                 <img
                   alt="image"
                   src="/playground_assets/instagram.svg"
@@ -147,7 +156,7 @@ const Home = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <div className="home-container10">
+              <div className="home-container11">
                 <img
                   alt="image"
                   src="/playground_assets/twitter.svg"
@@ -160,7 +169,7 @@ const Home = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <div className="home-container11">
+              <div className="home-container12">
                 <img
                   alt="image"
                   src="/playground_assets/dribbble.svg"
@@ -173,7 +182,7 @@ const Home = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <div className="home-container12">
+              <div className="home-container13">
                 <img
                   alt="image"
                   src="/playground_assets/whatsapp.svg"
@@ -182,7 +191,7 @@ const Home = (props) => {
               </div>
             </a>
             <a href="mailto:krjayesh2004@gmail.com?subject=">
-              <div className="home-container13">
+              <div className="home-container14">
                 <img
                   alt="image"
                   src="/playground_assets/mail.svg"
@@ -192,13 +201,13 @@ const Home = (props) => {
             </a>
           </div>
         </div>
-        <div className="home-container14">
+        <div className="home-container15">
           <img
             alt="image"
             src="/playground_assets/grinning%20face%20with%20sweat-1500h.webp"
             className="home-image11"
           />
-          <span className="home-text16">
+          <span className="home-text17">
             I’ll upload a resume soon
             <span
               dangerouslySetInnerHTML={{
@@ -270,31 +279,58 @@ const Home = (props) => {
             font-weight: 400;
             line-height: 2.92969vh;
           }
+          .home-container02 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
           .home-text09 {
             color: rgb(196, 196, 196);
             display: none;
-            font-size: 1.52542vh;
+            font-size: 2.21675vh;
             font-style: normal;
             font-family: Circular Std Book;
             font-weight: 400;
-            line-height: 1.94915vh;
+            line-height: 2.83251vh;
+          }
+          .home-text10 {
+            color: rgb(196, 196, 196);
+            display: none;
+            font-size: 2.21675vh;
+            font-style: normal;
+            font-family: Circular Std Book;
+            font-weight: 400;
+            line-height: 2.83251vh;
           }
           .home-text11 {
-            font-size: 1.52542vh;
+            color: rgb(196, 196, 196);
+            display: none;
+            font-size: 2.21675vh;
+            font-style: normal;
+            font-family: Circular Std Book;
+            font-weight: 400;
+            line-height: 2.83251vh;
           }
           .home-text12 {
             color: rgb(196, 196, 196);
             display: none;
-            font-size: 1.52542vh;
+            font-size: 2.21675vh;
             font-style: normal;
             font-family: Circular Std Book;
             font-weight: 400;
-            line-height: 1.94915vh;
+            line-height: 2.83251vh;
           }
-          .home-text14 {
-            font-size: 1.52542vh;
+          .home-text13 {
+            color: rgb(196, 196, 196);
+            display: none;
+            font-size: 2.21675vh;
+            font-style: normal;
+            font-family: Circular Std Book;
+            font-weight: 400;
+            line-height: 2.83251vh;
           }
-          .home-container02 {
+          .home-container03 {
             gap: 1.3888888888888888vw;
             flex: 0 0 auto;
             width: 100%;
@@ -303,7 +339,7 @@ const Home = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .home-text15 {
+          .home-text16 {
             color: rgb(196, 196, 196);
             font-size: 2.34375vh;
             font-style: normal;
@@ -321,28 +357,6 @@ const Home = (props) => {
           .home-link {
             display: contents;
           }
-          .home-container03 {
-            flex: 0 0 auto;
-            width: 4.8828125vh;
-            height: 4.8828125vh;
-            display: flex;
-            transition: 0.3s;
-            align-items: center;
-            border-radius: var(--dl-radius-radius-round);
-            justify-content: center;
-            text-decoration: none;
-            background-color: #1a243d;
-          }
-          .home-container03:hover {
-            background-color: #8b5cf6;
-          }
-          .home-image01 {
-            height: 2.9296875vh;
-            object-fit: cover;
-          }
-          .home-link01 {
-            display: contents;
-          }
           .home-container04 {
             flex: 0 0 auto;
             width: 4.8828125vh;
@@ -358,11 +372,11 @@ const Home = (props) => {
           .home-container04:hover {
             background-color: #8b5cf6;
           }
-          .home-image02 {
+          .home-image01 {
             height: 2.9296875vh;
             object-fit: cover;
           }
-          .home-link02 {
+          .home-link01 {
             display: contents;
           }
           .home-container05 {
@@ -380,11 +394,11 @@ const Home = (props) => {
           .home-container05:hover {
             background-color: #8b5cf6;
           }
-          .home-image03 {
+          .home-image02 {
             height: 2.9296875vh;
             object-fit: cover;
           }
-          .home-link03 {
+          .home-link02 {
             display: contents;
           }
           .home-container06 {
@@ -402,11 +416,11 @@ const Home = (props) => {
           .home-container06:hover {
             background-color: #8b5cf6;
           }
-          .home-image04 {
+          .home-image03 {
             height: 2.9296875vh;
             object-fit: cover;
           }
-          .home-link04 {
+          .home-link03 {
             display: contents;
           }
           .home-container07 {
@@ -424,17 +438,39 @@ const Home = (props) => {
           .home-container07:hover {
             background-color: #8b5cf6;
           }
+          .home-image04 {
+            height: 2.9296875vh;
+            object-fit: cover;
+          }
+          .home-link04 {
+            display: contents;
+          }
+          .home-container08 {
+            flex: 0 0 auto;
+            width: 4.8828125vh;
+            height: 4.8828125vh;
+            display: flex;
+            transition: 0.3s;
+            align-items: center;
+            border-radius: var(--dl-radius-radius-round);
+            justify-content: center;
+            text-decoration: none;
+            background-color: #1a243d;
+          }
+          .home-container08:hover {
+            background-color: #8b5cf6;
+          }
           .home-image05 {
             height: 2.9296875vh;
             object-fit: cover;
           }
-          .home-container08 {
+          .home-container09 {
             flex: 0 0 auto;
             width: 100%;
             display: none;
             align-items: flex-start;
           }
-          .home-container09 {
+          .home-container10 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -445,7 +481,7 @@ const Home = (props) => {
             width: 100px;
             object-fit: cover;
           }
-          .home-container10 {
+          .home-container11 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -456,7 +492,7 @@ const Home = (props) => {
             width: 100px;
             object-fit: cover;
           }
-          .home-container11 {
+          .home-container12 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -467,7 +503,7 @@ const Home = (props) => {
             width: 100px;
             object-fit: cover;
           }
-          .home-container12 {
+          .home-container13 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -478,7 +514,7 @@ const Home = (props) => {
             width: 100px;
             object-fit: cover;
           }
-          .home-container13 {
+          .home-container14 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -489,7 +525,7 @@ const Home = (props) => {
             width: 100px;
             object-fit: cover;
           }
-          .home-container14 {
+          .home-container15 {
             gap: 0.6944444444444444vw;
             flex: 0 0 auto;
             left: 0px;
@@ -505,7 +541,7 @@ const Home = (props) => {
             height: 2.9296875vh;
             object-fit: cover;
           }
-          .home-text16 {
+          .home-text17 {
             color: #475569;
             font-size: 2.34375vh;
             font-style: normal;
@@ -550,41 +586,81 @@ const Home = (props) => {
             .home-text05 {
               display: none;
             }
+            .home-container02 {
+              flex-direction: row;
+            }
             .home-text09 {
               color: #c4c4c4;
               display: flex;
-              font-size: 1.5254237288135593vh;
+              font-size: 2.2167487684729066vh;
               font-style: normal;
-              text-align: center;
+              text-align: left;
+              align-items: flex-start;
               font-family: Circular Std Book;
               font-weight: 400;
-              line-height: 1.9491525423728813vh;
+              line-height: 2.832512315270936vh;
+              flex-direction: column;
+            }
+            .home-text10 {
+              color: #8b5cf6;
+              display: flex;
+              font-size: 2.2167487684729066vh;
+              font-style: normal;
+              text-align: right;
+              align-items: flex-end;
+              font-family: Circular Std Book;
+              font-weight: 400;
+              line-height: 2.832512315270936vh;
+              margin-left: 1.0666666666666667vw;
+              flex-direction: column;
+            }
+            .home-text11 {
+              color: #c4c4c4;
+              display: flex;
+              font-size: 2.2167487684729066vh;
+              font-style: normal;
+              text-align: left;
+              align-items: flex-start;
+              font-family: Circular Std Book;
+              font-weight: 400;
+              line-height: 2.832512315270936vh;
               flex-direction: column;
             }
             .home-text12 {
               color: #c4c4c4;
               display: flex;
-              font-size: 1.5254237288135593vh;
+              font-size: 2.2167487684729066vh;
               font-style: normal;
-              margin-top: 1.694915254237288vh;
               text-align: center;
               font-family: Circular Std Book;
               font-weight: 400;
-              line-height: 1.9491525423728813vh;
+              line-height: 2.832512315270936vh;
               flex-direction: column;
             }
-            .home-container02 {
+            .home-text13 {
+              color: #c4c4c4;
+              display: flex;
+              font-size: 2.2167487684729066vh;
+              font-style: normal;
+              margin-top: 2.4630541871921183vh;
+              text-align: center;
+              font-family: Circular Std Book;
+              font-weight: 400;
+              line-height: 2.832512315270936vh;
+              flex-direction: column;
+            }
+            .home-container03 {
               display: none;
             }
-            .home-container08 {
-              gap: 1.2195121951219512vw;
-              width: auto;
-              display: flex;
-              margin-top: 1.694915254237288vh;
-            }
             .home-container09 {
-              width: 3.389830508474576vh;
-              height: 3.389830508474576vh;
+              gap: 2.6666666666666665vw;
+              display: flex;
+              margin-top: 2.4630541871921183vh;
+              justify-content: center;
+            }
+            .home-container10 {
+              width: 4.926108374384237vh;
+              height: 4.926108374384237vh;
               align-items: center;
               border-radius: var(--dl-radius-radius-round);
               justify-content: center;
@@ -594,9 +670,9 @@ const Home = (props) => {
               width: auto;
               height: 2.0338983050847457vh;
             }
-            .home-container10 {
-              width: 3.389830508474576vh;
-              height: 3.389830508474576vh;
+            .home-container11 {
+              width: 4.926108374384237vh;
+              height: 4.926108374384237vh;
               align-items: center;
               border-radius: var(--dl-radius-radius-round);
               justify-content: center;
@@ -606,9 +682,9 @@ const Home = (props) => {
               width: auto;
               height: 2.0338983050847457vh;
             }
-            .home-container11 {
-              width: 3.389830508474576vh;
-              height: 3.389830508474576vh;
+            .home-container12 {
+              width: 4.926108374384237vh;
+              height: 4.926108374384237vh;
               align-items: center;
               border-radius: var(--dl-radius-radius-round);
               justify-content: center;
@@ -618,9 +694,9 @@ const Home = (props) => {
               width: auto;
               height: 2.0338983050847457vh;
             }
-            .home-container12 {
-              width: 3.389830508474576vh;
-              height: 3.389830508474576vh;
+            .home-container13 {
+              width: 4.926108374384237vh;
+              height: 4.926108374384237vh;
               align-items: center;
               border-radius: var(--dl-radius-radius-round);
               justify-content: center;
@@ -630,9 +706,9 @@ const Home = (props) => {
               width: auto;
               height: 2.0338983050847457vh;
             }
-            .home-container13 {
-              width: 3.389830508474576vh;
-              height: 3.389830508474576vh;
+            .home-container14 {
+              width: 4.926108374384237vh;
+              height: 4.926108374384237vh;
               align-items: center;
               border-radius: var(--dl-radius-radius-round);
               justify-content: center;
@@ -642,17 +718,16 @@ const Home = (props) => {
               width: auto;
               height: 2.0338983050847457vh;
             }
-            .home-container14 {
+            .home-container15 {
               gap: 0.7317073170731707vw;
-              width: 100%;
             }
             .home-image11 {
-              height: 2.0338983050847457vh;
+              height: 2.955665024630542vh;
             }
-            .home-text16 {
+            .home-text17 {
               color: #ffffff;
-              font-size: 1.5254237288135593vh;
-              line-height: 1.9491525423728813vh;
+              font-size: 2.2167487684729066vh;
+              line-height: 2.832512315270936vh;
             }
             .home-image12 {
               width: 100%;
@@ -671,6 +746,7 @@ const Home = (props) => {
               width: 100vw;
               margin: auto;
               display: flex;
+              z-index: 1;
               position: absolute;
             }
             .home-image15 {
@@ -680,6 +756,7 @@ const Home = (props) => {
               bottom: 0px;
               margin: auto;
               display: flex;
+              z-index: 1;
               position: absolute;
             }
           }
