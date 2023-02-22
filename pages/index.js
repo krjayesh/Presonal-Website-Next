@@ -218,22 +218,22 @@ const Home = (props) => {
         </div>
         <img
           alt="image"
-          src="/playground_assets/color%20fade%20effect%201.svg"
+          src="/playground_assets/color%20fade%20effect%20m1.svg"
           className="home-image12"
         />
         <img
           alt="image"
-          src="/playground_assets/color%20fade%20effect%202.svg"
+          src="/playground_assets/color%20fade%20effect%20m2.svg"
           className="home-image13"
         />
         <img
+          src="/playground_assets/group%201%20%5B1%5D-1500h.png"
           alt="image"
-          src="/playground_assets/color%20fade%20effect%20m1.svg"
           className="home-image14"
         />
         <img
+          src="/playground_assets/group%202%20%5B1%5D-1500w.png"
           alt="image"
-          src="/playground_assets/color%20fade%20effect%20m2.svg"
           className="home-image15"
         />
       </div>
@@ -526,10 +526,8 @@ const Home = (props) => {
             object-fit: cover;
           }
           .home-container15 {
-            gap: 0.6944444444444444vw;
+            gap: 0.4166666666666667vw;
             flex: 0 0 auto;
-            left: 0px;
-            right: 0px;
             bottom: 7.8125vh;
             display: flex;
             z-index: 2;
@@ -548,30 +546,31 @@ const Home = (props) => {
             text-align: center;
             font-family: Circular Std Book;
             font-weight: 400;
-            line-height: 2.92969vh;
+            line-height: 2.9296875vh;
           }
           .home-image12 {
+            width: 100px;
+            display: none;
+            object-fit: cover;
+          }
+          .home-image13 {
+            width: 100px;
+            display: none;
+            object-fit: cover;
+          }
+          .home-image14 {
             top: 0px;
             left: 0px;
             height: 66.6015625vh;
             position: absolute;
             object-fit: cover;
           }
-          .home-image13 {
+          .home-image15 {
             right: 0px;
             bottom: 0px;
             height: 86.9140625vh;
             position: absolute;
-            object-fit: cover;
-          }
-          .home-image14 {
-            width: 100px;
-            display: none;
-            object-fit: cover;
-          }
-          .home-image15 {
-            width: 100px;
-            display: none;
+            align-self: flex-end;
             object-fit: cover;
           }
           @media (max-width: 420px) {
@@ -730,16 +729,6 @@ const Home = (props) => {
               line-height: 2.832512315270936vh;
             }
             .home-image12 {
-              width: 100%;
-              height: auto;
-              display: none;
-            }
-            .home-image13 {
-              width: 80%;
-              height: auto;
-              display: none;
-            }
-            .home-image14 {
               top: 0px;
               left: 0px;
               right: 0px;
@@ -749,7 +738,7 @@ const Home = (props) => {
               z-index: 1;
               position: absolute;
             }
-            .home-image15 {
+            .home-image13 {
               left: 0px;
               right: 0px;
               width: 100vw;
@@ -758,6 +747,12 @@ const Home = (props) => {
               display: flex;
               z-index: 1;
               position: absolute;
+            }
+            .home-image14 {
+              display: none;
+            }
+            .home-image15 {
+              display: none;
             }
           }
         `}
